@@ -1,9 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.HomelessPaws" parent="Theme.Material3.DayNight.NoActionBar">
+
+    <style name="ThemeMaterial" parent="ThemeMaterial.Base" />
+
+    <style name="ThemeMaterial.Base" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
     </style>
 
-    <style name="Theme.HomelessPaws" parent="Base.Theme.HomelessPaws" />
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/ThemeMaterial.Base</item>
+    </style>
 </resources>

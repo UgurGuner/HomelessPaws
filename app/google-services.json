@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1097873875388",
+    "project_id": "evsizpatilerandroid",
+    "storage_bucket": "evsizpatilerandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097873875388:android:189c6b602f1cb804c7cbb9",
+        "android_client_info": {
+          "package_name": "com.eugurguner.homelesspaws"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8kx8PdVpcNzqORWKSJNqEGodEzQxMaNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

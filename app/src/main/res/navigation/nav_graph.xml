@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.eugurguner.homelesspaws.presentation.fragments.FragmentHome"
+        android:label="FragmentHome"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/fragmentProfiles"
+        android:name="com.eugurguner.homelesspaws.presentation.fragments.FragmentProfiles"
+        android:label="FragmentProfiles"
+        tools:layout="@layout/fragment_profiles" />
+    <fragment
+        android:id="@+id/fragmentDonation"
+        android:name="com.eugurguner.homelesspaws.presentation.fragments.FragmentDonation"
+        android:label="FragmentDonation"
+        tools:layout="@layout/fragment_donation" />
+    <fragment
+        android:id="@+id/fragmentLearn"
+        android:name="com.eugurguner.homelesspaws.presentation.fragments.FragmentLearn"
+        android:label="FragmentLearn"
+        tools:layout="@layout/fragment_learn" />
+</navigation>
